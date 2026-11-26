@@ -1,0 +1,501 @@
+[
+  {
+    "id": "ops-vs-pro",
+    "app": "both",
+    "category": "general",
+    "question": "What is the difference between GEP Ops and GEP Pro?",
+    "question_ms": "Apakah perbezaan antara GEP Ops dan GEP Pro?",
+    "answer": "Both applications belong to the GuardExpert Pro platform and synchronize through the same Central Monitoring System (CMS), serving distinct operational roles:",
+    "answer_ms": "Kedua-dua aplikasi merupakan sebahagian daripada platform GuardExpert Pro yang berhubung dengan Sistem Pemantauan Pusat (CMS) yang sama, dengan peranan operasi berbeza:",
+    "steps": [
+      "GEP Pro (Field Patrol Terminal): Used on site by security guards and patrollers to clock shift attendance, run NFC or QR checkpoint patrol tours, submit incident reports, issue compound notices, and trigger emergency panic alerts.",
+      "GEP Ops (Operations Supervisor App): Used by supervisors and operations managers to monitor live Critical, Understaffed, and Missed alerts across zones, view on-duty attendance, log follow-up calls, and register or manage marshals and Face IDs."
+    ],
+    "steps_ms": [
+      "GEP Pro (Terminal Rondaan Lapangan): Digunakan di lokasi oleh pengawal keselamatan dan peronda untuk merekod kehadiran syif, menjalankan rondaan checkpoint NFC atau QR, menghantar laporan insiden, mengeluarkan notis kompaun, serta mengaktifkan amaran panik.",
+      "GEP Ops (Aplikasi Penyelia Operasi): Digunakan oleh penyelia dan pengurus operasi untuk memantau amaran Kritikal, Kurang Kakitangan, dan Terlepas mengikut zon, menyemak kehadiran bertugas, merekod panggilan susulan, serta mengurus pendaftaran marshal dan Face ID."
+    ]
+  },
+  {
+    "id": "how-to-login",
+    "app": "ops",
+    "category": "general",
+    "question": "How do I obtain an account and sign in to GEP Ops?",
+    "question_ms": "Bagaimanakah cara mendapatkan akaun dan log masuk ke GEP Ops?",
+    "answer": "Your organization's system administrator creates your account on the CMS web portal and provides your username (or work email) and password. Sign in directly using those credentials. No company code or server URL is required.",
+    "answer_ms": "Pentadbir sistem organisasi anda akan mencipta akaun melalui portal web CMS dan membekalkan nama pengguna (atau e-mel kerja) serta kata laluan. Log masuk terus menggunakan maklumat tersebut tanpa perlu memasukkan kod syarikat atau pautan pelayan.",
+    "tip": "Your session remains active across app restarts until you select Log Out.",
+    "tip_ms": "Sesi log masuk anda kekal aktif walaupun aplikasi ditutup sehinggalah anda menekan Log Keluar."
+  },
+  {
+    "id": "gep-pro-device-activation",
+    "app": "pro",
+    "category": "general",
+    "question": "How do I activate and configure a new device on GEP Pro?",
+    "question_ms": "Bagaimanakah cara mengaktifkan dan menyediakan peranti baharu pada GEP Pro?",
+    "answer": "Before guards can clock in or begin patrols, an administrator must activate the patrol device and assign its operational settings:",
+    "answer_ms": "Sebelum pengawal dapat merekod kehadiran atau memulakan rondaan, pentadbir perlu mengaktifkan peranti rondaan dan menetapkan konfigurasi lokasi:",
+    "steps": [
+      "Open GEP Pro on the device to view the Device Activation screen.",
+      "Enter the GuardExpert Pro server URL, Application ID, Caller ID, and PIN Number provided by your administrator, then select Submit.",
+      "Confirm Device Authorization (Authorize GEP) on CMS, then sign in via Admin Login.",
+      "Configure Premise Settings (one premise per device), Shift Settings (non-overlapping 24-hour coverage), and Touring Zone Settings, then run Sync user list."
+    ],
+    "steps_ms": [
+      "Buka GEP Pro pada peranti untuk memaparkan skrin Pengaktifan Peranti (Device Activation).",
+      "Masukkan pautan pelayan GuardExpert Pro (URL), Application ID, Caller ID, dan Nombor PIN yang dibekalkan oleh pentadbir, kemudian pilih Hantar (Submit).",
+      "Sahkan kebenaran peranti (Authorize GEP) pada CMS, kemudian log masuk melalui Admin Login.",
+      "Tetapkan Premise Settings (satu premis bagi setiap peranti), Shift Settings (liputan 24 jam tanpa pertindihan), dan Touring Zone Settings, kemudian jalankan Sync user list."
+    ]
+  },
+  {
+    "id": "forced-password-change",
+    "app": "ops",
+    "category": "general",
+    "question": "Why am I prompted to change my password immediately after signing in to GEP Ops?",
+    "question_ms": "Mengapa saya diminta menukar kata laluan sejurus selepas log masuk ke GEP Ops?",
+    "answer": "New accounts and administrator-reset accounts are assigned a temporary password for security. You are required to set a new personal password once before accessing the Dashboard.",
+    "answer_ms": "Akaun baharu atau akaun yang ditetapkan semula oleh pentadbir diberikan kata laluan sementara atas faktor keselamatan. Anda perlu menetapkan kata laluan peribadi baharu sekali sahaja sebelum memasuki Dashboard.",
+    "steps": [
+      "Enter a new password containing at least 8 characters.",
+      "Ensure the new password differs from your temporary password.",
+      "Re-enter the password to confirm, then select Save Password."
+    ],
+    "steps_ms": [
+      "Masukkan kata laluan baharu sekurang-kurangnya 8 aksara.",
+      "Pastikan kata laluan baharu berbeza daripada kata laluan sementara.",
+      "Masukkan semula kata laluan untuk pengesahan, kemudian pilih Simpan Kata Laluan."
+    ]
+  },
+  {
+    "id": "login-errors",
+    "app": "ops",
+    "category": "general",
+    "question": "What do the sign-in error messages in GEP Ops mean?",
+    "question_ms": "Apakah maksud mesej ralat semasa log masuk di GEP Ops?",
+    "answer": "Each alert identifies the specific issue preventing sign-in:",
+    "answer_ms": "Setiap mesej ralat menunjukkan punca khusus yang menghalang akses:",
+    "steps": [
+      "No internet connection: Wi-Fi or mobile data is disabled on your device. Enable internet access and try again.",
+      "Unable to Connect: Your device has network signal, but could not reach the CMS server due to weak coverage or scheduled maintenance. Retry from a location with stronger reception.",
+      "Login Failed: The username, email, or password entered is incorrect. Use the eye icon to verify your input, or request a password reset from your system administrator."
+    ],
+    "steps_ms": [
+      "Tiada sambungan internet: Wi-Fi atau data mudah alih tidak diaktifkan pada peranti anda. Aktifkan sambungan internet dan cuba semula.",
+      "Gagal Menyambung: Peranti mempunyai liputan rangkaian, tetapi tidak dapat menghubungi pelayan CMS akibat isyarat lemah atau penyelenggaraan berjadual. Sila cuba semula di kawasan dengan liputan lebih stabil.",
+      "Log Masuk Gagal: Nama pengguna, e-mel, atau kata laluan tidak tepat. Tekan ikon mata untuk menyemak ejaan, atau hubungi pentadbir sistem untuk menetapkan semula kata laluan."
+    ]
+  },
+  {
+    "id": "gep-pro-sync-and-suspension",
+    "app": "pro",
+    "category": "general",
+    "question": "How do I resolve \"Users not found in the local database\", \"Unauthorized\", or subscription notices in GEP Pro?",
+    "question_ms": "Bagaimanakah cara menyelesaikan mesej \"Users not found in the local database\", \"Unauthorized\", atau notis langganan pada GEP Pro?",
+    "answer": "Resolve each device status message as follows:",
+    "answer_ms": "Selesaikan setiap mesej status peranti mengikut panduan berikut:",
+    "steps": [
+      "Users not found in the local database: Connect the device to the internet, sign in via Admin Login, and select Sync user list to download registered guards and Face ID templates.",
+      "Unauthorized device: Confirm with your administrator that the device Serial Number is authorized on CMS, then select Reload device settings.",
+      "Subscription temporarily suspended: Contact your organization's administrator or the GuardExpert Pro support desk to confirm active subscription status."
+    ],
+    "steps_ms": [
+      "Users not found in the local database: Sambungkan peranti ke internet, log masuk melalui Admin Login, dan pilih Sync user list untuk memuat turun senarai pengawal serta templat Face ID.",
+      "Peranti tidak dibenarkan (Unauthorized): Sahkan bersama pentadbir bahawa Nombor Siri peranti telah diberi kebenaran pada CMS, kemudian pilih Reload device settings.",
+      "Langganan digantung sementara (Subscription temporarily suspended): Hubungi pentadbir organisasi anda atau meja bantuan GuardExpert Pro bagi mengesahkan status langganan."
+    ]
+  },
+  {
+    "id": "dashboard-cards-meaning",
+    "app": "ops",
+    "category": "dashboard",
+    "question": "What do the Critical, Understaffed, and Missed cards represent?",
+    "question_ms": "Apakah yang dipaparkan oleh kad Kritikal, Kurang Kakitangan, dan Terlepas?",
+    "answer": "The Home Dashboard highlights active operational alerts across your assigned zones so urgent matters can be prioritized:",
+    "answer_ms": "Dashboard Utama memaparkan ringkasan amaran operasi aktif bagi semua zon di bawah seliaan anda supaya tindakan segera dapat diberi keutamaan:",
+    "steps": [
+      "Critical: High-priority premise alerts requiring immediate supervisor attention.",
+      "Understaffed: Premises where active on-duty guards are below the required staffing quota.",
+      "Missed: Scheduled patrol tours or checkpoints that were missed or completed late."
+    ],
+    "steps_ms": [
+      "Kritikal (Critical): Amaran premis penting yang memerlukan tindakan segera penyelia.",
+      "Kurang Kakitangan (Understaffed): Premis yang mempunyai bilangan pengawal bertugas kurang daripada kuota ditetapkan.",
+      "Terlepas (Missed): Rondaan berjadual atau titik pemeriksaan (checkpoint) yang terlepas atau lewat disahkan."
+    ],
+    "tip": "Select any card to view affected premises and contact on-site personnel directly.",
+    "tip_ms": "Pilih mana-mana kad untuk menyemak senarai premis terlibat dan terus menghubungi petugas di lokasi."
+  },
+  {
+    "id": "push-notifications",
+    "app": "ops",
+    "category": "dashboard",
+    "question": "How do I enable or troubleshoot alert push notifications in GEP Ops?",
+    "question_ms": "Bagaimanakah cara mengaktifkan atau menyemak isu notifikasi amaran di GEP Ops?",
+    "answer": "Verify both your in-app notification preference and your device's system permission settings:",
+    "answer_ms": "Sila pastikan tetapan notifikasi di dalam aplikasi serta kebenaran sistem Android telah diaktifkan:",
+    "steps": [
+      "Open the Profile tab and enable Alert Notifications.",
+      "Select Allow if Android prompts for notification permission.",
+      "On Xiaomi, OPPO, or vivo devices, verify that battery optimization settings allow GEP Ops to receive notifications in the background."
+    ],
+    "steps_ms": [
+      "Buka tab Profil dan aktifkan suis Notifikasi Amaran (Alert Notifications).",
+      "Pilih Benarkan (Allow) sekiranya sistem Android meminta kebenaran notifikasi.",
+      "Bagi peranti Xiaomi, OPPO, atau vivo, pastikan tetapan penjimatan bateri tidak menyekat notifikasi latar belakang untuk GEP Ops."
+    ]
+  },
+  {
+    "id": "gep-pro-touring-alarms",
+    "app": "pro",
+    "category": "dashboard",
+    "question": "How do scheduled touring alarms and Insufficient Guard notices work in GEP Pro?",
+    "question_ms": "Bagaimanakah penggera rondaan berjadual dan notis Kurang Pengawal (Insufficient Guard) berfungsi pada GEP Pro?",
+    "answer": "GEP Pro provides on-device reminders so patrol schedules and staffing requirements are addressed on time:",
+    "answer_ms": "GEP Pro memaparkan peringatan terus pada peranti supaya jadual rondaan dan keperluan bilangan pengawal dipatuhi mengikut masa:",
+    "steps": [
+      "Touring Alarm: When a scheduled patrol interval starts, an alert prompts guards to begin touring. Slide to start immediately, select Snooze for the configured interval, or select Stop and enter a mandatory reason.",
+      "Attendance Required (Insufficient Guard): Displays before a shift begins when clocked-in guards are fewer than the premise requirement, showing current versus required guards so attendance can be resolved promptly."
+    ],
+    "steps_ms": [
+      "Penggera Rondaan (Touring Alarm): Apabila waktu rondaan berjadual tiba, penggera akan mengingatkan pengawal untuk memulakan rondaan. Leret untuk mula segera, pilih Tunda (Snooze) mengikut tempoh ditetapkan, atau pilih Henti (Stop) dengan menyatakan sebab yang diwajibkan.",
+      "Kehadiran Diperlukan (Insufficient Guard): Dipaparkan sebelum syif bermula apabila bilangan pengawal yang merekod masuk kurang daripada keperluan premis, berserta jumlah semasa berbanding kuota diperlukan untuk tindakan segera."
+    ],
+    "tip": "All alarm responses and stop reasons are recorded in the Alarm & Alert Log.",
+    "tip_ms": "Semua tindakan penggera dan sebab pemberhentian direkodkan di dalam Alarm & Alert Log."
+  },
+  {
+    "id": "gep-pro-start-touring",
+    "app": "pro",
+    "category": "patrol",
+    "question": "How do guards authenticate and start a patrol tour in GEP Pro?",
+    "question_ms": "Bagaimanakah pengawal mengesahkan identiti dan memulakan sesi rondaan di GEP Pro?",
+    "answer": "Guards verify their identity in the Lobby before starting a tour using the authentication mode configured for the device:",
+    "answer_ms": "Pengawal perlu mengesahkan identiti di skrin Lobi (Lobby) sebelum memulakan rondaan mengikut kaedah pengesahan yang ditetapkan pada peranti:",
+    "steps": [
+      "Open Touring and confirm that a touring zone is selected.",
+      "Authenticate using the required method: tap an NFC access card on the back of the device, complete Face ID verification, or enter a password where enabled.",
+      "To patrol in pairs or a team, select Add User to authenticate additional patrollers into the Lobby. At least one authenticated user must be present to start.",
+      "Begin the patrol session once all patrollers are listed in the Lobby."
+    ],
+    "steps_ms": [
+      "Buka modul Rondaan (Touring) dan pastikan zon rondaan telah dipilih.",
+      "Sahkan identiti mengikut kaedah yang ditetapkan: sentuh kad akses NFC di bahagian belakang peranti, jalankan pengesahan Face ID, atau masukkan kata laluan jika diaktifkan.",
+      "Bagi rondaan berpasangan atau berkumpulan, pilih Add User untuk menambah peronda lain ke dalam Lobi. Sekurang-kurangnya seorang pengguna disahkan diperlukan untuk memulakan sesi.",
+      "Mulakan sesi rondaan setelah semua peronda tersenarai di dalam Lobi."
+    ],
+    "tip": "If you need to record shift attendance during an active patrol, select Take Attendance. Your current touring progress resumes automatically afterwards.",
+    "tip_ms": "Sekiranya anda perlu merekod kehadiran syif semasa rondaan berlangsung, pilih Take Attendance. Kemajuan rondaan semasa akan disambung semula secara automatik selepas itu."
+  },
+  {
+    "id": "gep-pro-scan-checkpoints",
+    "app": "pro",
+    "category": "patrol",
+    "question": "How do I scan NFC or QR checkpoints and finish a patrol tour?",
+    "question_ms": "Bagaimanakah cara mengimbas checkpoint NFC atau QR dan menamatkan rondaan?",
+    "answer": "GEP Pro supports both NFC checkpoint tags and camera-based QR checkpoints depending on site configuration:",
+    "answer_ms": "GEP Pro menyokong imbasan tag NFC dan kod QR melalui kamera bergantung pada konfigurasi lokasi:",
+    "steps": [
+      "NFC Checkpoint: Hold the back of the device close to the checkpoint NFC tag until the timestamp appears under Last Recorded Checkpoint.",
+      "QR Checkpoint: When Allow QR Checkpoint is enabled in settings, select Scan QR and align the checkpoint QR code within the camera frame.",
+      "Keep device GPS enabled so location coordinates and patrol paths are recorded accurately under Tracker & Routes.",
+      "After scanning all required checkpoints, select End Tour to complete the session and save the entry in Touring Log."
+    ],
+    "steps_ms": [
+      "Checkpoint NFC: Rapatkan bahagian belakang peranti pada tag NFC checkpoint sehingga masa imbasan dipaparkan pada Last Recorded Checkpoint.",
+      "Checkpoint QR: Apabila tetapan Allow QR Checkpoint diaktifkan, pilih Scan QR dan halakan kod QR checkpoint ke dalam bingkai kamera.",
+      "Pastikan lokasi GPS peranti kekal aktif supaya koordinat dan laluan rondaan direkodkan dengan tepat dalam Tracker & Routes.",
+      "Setelah semua checkpoint selesai diimbas, pilih End Tour untuk menamatkan sesi dan menyimpan rekod dalam Touring Log."
+    ]
+  },
+  {
+    "id": "gep-pro-reload-zones",
+    "app": "pro",
+    "category": "patrol",
+    "question": "When should I use \"Reset/Reload Zone and Checkpoints\" in GEP Pro?",
+    "question_ms": "Bilakah fungsi \"Reset/Reload Zone and Checkpoints\" perlu digunakan pada GEP Pro?",
+    "answer": "Use Reset/Reload inside Touring Settings whenever an administrator adds, edits, or reorders zones or checkpoints on CMS. This clears locally cached zone and checkpoint lists on the device and downloads the latest structure from the server.",
+    "answer_ms": "Gunakan fungsi Reset/Reload di dalam Touring Settings setiap kali pentadbir menambah, mengubah, atau menyusun semula zon dan checkpoint pada CMS. Tindakan ini memadamkan data zon serta checkpoint tempatan pada peranti dan memuat turun senarai terkini daripada pelayan.",
+    "tip": "Always re-select the assigned touring zone(s) for the device immediately after reloading.",
+    "tip_ms": "Pastikan anda memilih semula zon rondaan yang betul bagi peranti sejurus selepas proses muat semula selesai."
+  },
+  {
+    "id": "gep-pro-incident-report",
+    "app": "pro",
+    "category": "incidents",
+    "question": "How do I submit an Incident Report (SitRep) in GEP Pro?",
+    "question_ms": "Bagaimanakah cara menghantar Laporan Insiden (SitRep) di GEP Pro?",
+    "answer": "Guards and patrollers can log site incidents with photographic evidence directly from the patrol terminal:",
+    "answer_ms": "Pengawal dan peronda boleh merekodkan insiden lokasi berserta bukti bergambar terus daripada terminal rondaan:",
+    "steps": [
+      "Open Report from the navigation menu to create a new Incident Report.",
+      "Enter a clear title and concise remarks describing the incident.",
+      "Select an assignee if the incident requires follow-up by a specific officer.",
+      "Capture supporting photos using Snapshot, then select Submit."
+    ],
+    "steps_ms": [
+      "Buka menu Report daripada bar navigasi untuk mencipta Laporan Insiden baharu.",
+      "Masukkan tajuk yang jelas serta catatan ringkas mengenai insiden yang berlaku.",
+      "Pilih pegawai bertanggungjawab (Assignee) sekiranya insiden memerlukan tindakan susulan.",
+      "Tangkap gambar bukti melalui fungsi Snapshot, kemudian pilih Hantar (Submit)."
+    ],
+    "tip": "Submitted entries and attachments are saved in SitRep Log and upload automatically once internet connectivity is available.",
+    "tip_ms": "Laporan dan gambar yang dihantar direkodkan dalam SitRep Log serta dimuat naik secara automatik sebaik sahaja sambungan internet tersedia."
+  },
+  {
+    "id": "gep-pro-compound-notice",
+    "app": "pro",
+    "category": "incidents",
+    "question": "How do I issue and print a Compound Notice in GEP Pro?",
+    "question_ms": "Bagaimanakah cara mengeluarkan dan mencetak Notis Kompaun di GEP Pro?",
+    "answer": "Authorized officers can record traffic or premise offences and print compound notices on site:",
+    "answer_ms": "Pegawai yang diberi kuasa boleh merekodkan kesalahan trafik atau premis serta mencetak notis kompaun terus di lokasi:",
+    "steps": [
+      "Open Compound from the navigation menu.",
+      "Enter offender details (name, IC or matric card number), vehicle details, location or campus, and the applicable offence code.",
+      "Attach photo evidence if needed, then select Submit to generate the reference ID.",
+      "If a Bluetooth thermal printer is paired (verify under Printer Status), print the notice directly. Past records remain viewable under Compound History."
+    ],
+    "steps_ms": [
+      "Buka menu Compound daripada bar navigasi.",
+      "Lengkapkan maklumat pesalah (nama, nombor kad pengenalan atau kad matrik), butiran kenderaan, lokasi atau kampus, serta kod kesalahan berkaitan.",
+      "Lampirkan gambar bukti jika perlu, kemudian pilih Hantar (Submit) untuk menjana nombor rujukan.",
+      "Jika pencetak haba Bluetooth disambungkan (semak Printer Status), cetak notis terus di lokasi. Rekod terdahulu kekal boleh disemak di dalam Compound History."
+    ]
+  },
+  {
+    "id": "gep-pro-panic-mode",
+    "app": "pro",
+    "category": "incidents",
+    "question": "How does Panic Mode work in GEP Pro, and how is it deactivated?",
+    "question_ms": "Bagaimanakah Mod Panik (Panic Mode) berfungsi pada GEP Pro, dan bagaimana cara menyahaktifkannya?",
+    "answer": "Panic Mode provides immediate emergency escalation from the patrol screen to the monitoring center:",
+    "answer_ms": "Mod Panik membolehkan pengawal menghantar amaran kecemasan segera dari skrin rondaan ke pusat pemantauan:",
+    "steps": [
+      "Select Panic Mode to begin the activation countdown. If triggered unintentionally, select Cancel Panic Mode before the timer completes.",
+      "Once active, the emergency alert is transmitted immediately to the monitoring center and recorded in Panic Log.",
+      "To deactivate an active Panic Mode, select Deactivate Panic Mode, choose the resolution (False Alarm or Resolved), and enter the security response code matching the displayed Challenge Code verified by the control center."
+    ],
+    "steps_ms": [
+      "Pilih Panic Mode untuk memulakan kiraan detik pengaktifan. Jika tertekan secara tidak sengaja, pilih Cancel Panic Mode sebelum kiraan tamat.",
+      "Sebaik sahaja aktif, amaran kecemasan dihantar terus ke pusat pemantauan dan direkodkan di dalam Panic Log.",
+      "Untuk menyahaktifkan Mod Panik yang sedang aktif, pilih Deactivate Panic Mode, pilih status penyelesaian (False Alarm atau Resolved), dan masukkan kod pengesahan yang sepadan dengan Challenge Code yang disahkan oleh pusat kawalan."
+    ],
+    "tip": "For non-panic assistance during patrol, select Voice Call to reach the configured call center directly.",
+    "tip_ms": "Bagi bantuan suara bukan kecemasan semasa rondaan, pilih Voice Call untuk menghubungi pusat panggilan yang ditetapkan secara terus."
+  },
+  {
+    "id": "gep-pro-clocking",
+    "app": "pro",
+    "category": "attendance",
+    "question": "How do guards record Clock In and Clock Out attendance in GEP Pro?",
+    "question_ms": "Bagaimanakah pengawal merekod kehadiran Clock In dan Clock Out di GEP Pro?",
+    "answer": "Guard shift attendance is captured directly on the site GEP Pro terminal:",
+    "answer_ms": "Kehadiran syif pengawal direkodkan terus melalui terminal GEP Pro di lokasi:",
+    "steps": [
+      "Long press the attendance button (Long press to take attendance) on the main screen.",
+      "Authenticate using the site's required method (NFC ID card, Face ID, or password).",
+      "Select Clock In (In) when starting duty or Clock Out (Out) when ending duty.",
+      "Early clock-in is permitted only within the configured Early Check-In Window (Start Shift Early)."
+    ],
+    "steps_ms": [
+      "Tekan dan tahan butang kehadiran (Long press to take attendance) pada skrin utama.",
+      "Sahkan identiti mengikut kaedah lokasi (kad NFC, Face ID, atau kata laluan).",
+      "Pilih Clock In (In) semasa memulakan tugas atau Clock Out (Out) apabila tamat syif.",
+      "Rekod masuk awal hanya dibenarkan dalam tempoh Early Check-In Window yang ditetapkan (Start Shift Early)."
+    ],
+    "tip": "If a guard clocks out by mistake before a shift ends, open the attendance summary to reset the current clock-out time and clock out again at shift completion.",
+    "tip_ms": "Jika pengawal tertekan Clock Out secara tidak sengaja sebelum syif tamat, buka ringkasan kehadiran untuk menetapkan semula masa keluar tersebut dan rekod Clock Out semula pada akhir syif."
+  },
+  {
+    "id": "gep-pro-overtime-missed-out",
+    "app": "pro",
+    "category": "attendance",
+    "question": "What is the difference between Normal, Overtime, and Missed Out in GEP Pro attendance?",
+    "question_ms": "Apakah perbezaan antara Normal, Overtime, dan Missed Out dalam rekod kehadiran GEP Pro?",
+    "answer": "When a shift session exceeds the configured normal working duration, GEP Pro prompts the guard to classify the record accurately:",
+    "answer_ms": "Apabila tempoh sesi syif melebihi had waktu bekerja biasa yang ditetapkan, GEP Pro akan meminta pengawal memilih kategori rekod yang tepat:",
+    "steps": [
+      "Normal: Shift completed within the standard working duration configured for the premise.",
+      "Overtime: Select this option when the guard worked approved extended hours beyond the normal shift.",
+      "Missed Out: Select this option when the guard forgot to clock out at the end of the previous shift."
+    ],
+    "steps_ms": [
+      "Normal: Syif diselesaikan dalam lingkungan tempoh waktu bekerja biasa yang ditetapkan bagi premis.",
+      "Overtime: Pilih pilihan ini sekiranya pengawal sememangnya bertugas lebih masa melebihi jadual biasa.",
+      "Missed Out: Pilih pilihan ini sekiranya pengawal terlupa merekod Clock Out pada penghujung syif terdahulu."
+    ]
+  },
+  {
+    "id": "manage-cards-disabled",
+    "app": "ops",
+    "category": "attendance",
+    "question": "Why are Marshal, Attendance, and Call History disabled on the GEP Ops Manage tab?",
+    "question_ms": "Mengapa kad Marshal, Kehadiran, dan Sejarah Panggilan tidak boleh ditekan pada tab Urus di GEP Ops?",
+    "answer": "Marshal directories, shift attendance, and call logs are organized by operations zone. Select an active zone from the \"Choose Zone\" dropdown at the top of the Manage screen to enable all three modules.",
+    "answer_ms": "Senarai marshal, kehadiran syif, dan sejarah panggilan diuruskan mengikut zon operasi. Sila pilih zon aktif melalui menu \"Pilih Zon\" di bahagian atas skrin Urus untuk mengaktifkan ketiga-tiga modul tersebut."
+  },
+  {
+    "id": "zone-missing",
+    "app": "ops",
+    "category": "attendance",
+    "question": "Why is my assigned zone missing from the Choose Zone list in GEP Ops?",
+    "question_ms": "Mengapa zon seliaan saya tiada dalam senarai Pilih Zon di GEP Ops?",
+    "answer": "Select the blue sync button beside the Choose Zone dropdown to refresh your zone and attendance group list from the server. If the zone still does not appear, contact your system administrator to confirm that your account is assigned to that site on the CMS web portal.",
+    "answer_ms": "Tekan butang penyelarasan berwarna biru di sebelah menu Pilih Zon untuk memuat semula senarai zon terkini daripada pelayan. Jika zon tersebut masih tidak dipaparkan, sila hubungi pentadbir sistem syarikat anda bagi mengesahkan akses akaun anda di portal web CMS."
+  },
+  {
+    "id": "attendance-tracking",
+    "app": "ops",
+    "category": "attendance",
+    "question": "How do I view on-duty guards and historical attendance logs in GEP Ops?",
+    "question_ms": "Bagaimanakah cara menyemak pengawal sedang bertugas dan rekod kehadiran terdahulu di GEP Ops?",
+    "answer": "Open the Manage tab, select your zone, and choose Attendance. You can monitor guards currently on shift by premise, filter by attendance group, place a direct phone call to a guard, or switch to Attendance History to review past clock-in and clock-out durations.",
+    "answer_ms": "Buka tab Urus, pilih zon operasi, dan pilih Kehadiran (Attendance). Anda boleh memantau pengawal yang sedang bertugas mengikut premis, menapis mengikut kumpulan kehadiran, membuat panggilan terus kepada pengawal, atau menukar ke tab Sejarah Kehadiran untuk menyemak rekod waktu masuk dan keluar terdahulu."
+  },
+  {
+    "id": "call-history-pending",
+    "app": "ops",
+    "category": "attendance",
+    "question": "Why do calls remain marked as \"Pending\" in GEP Ops Call History?",
+    "question_ms": "Mengapa status panggilan kekal sebagai \"Tertunda\" dalam Sejarah Panggilan GEP Ops?",
+    "answer": "Due to Android privacy restrictions, the system phone dialer does not report call pickup outcomes back to third-party applications. Calls initiated from Alerts, Attendance, or Marshal List are logged as Pending so supervisors can record the verified outcome for team handover.",
+    "answer_ms": "Atas dasar keselamatan dan privasi Android, aplikasi telefon sistem tidak menghantar status jawapan panggilan kepada aplikasi luar. Setiap panggilan yang dimulakan daripada skrin Amaran, Kehadiran, atau Senarai Marshal direkodkan sebagai Tertunda supaya penyelia boleh mengemas kini hasil sebenar untuk rujukan pasukan.",
+    "steps": [
+      "Open Manage, select your zone, and choose Call History.",
+      "Select the call entry to open Call Detail.",
+      "Choose the outcome (Answered, No Answer, Busy, Failed, or Cancelled), add optional remarks, and select Save."
+    ],
+    "steps_ms": [
+      "Buka tab Urus, pilih zon, dan pilih Sejarah Panggilan.",
+      "Pilih rekod panggilan berkaitan untuk membuka Butiran Panggilan.",
+      "Pilih status panggilan (Dijawab, Tiada Jawapan, Sibuk, Gagal, atau Dibatalkan), masukkan catatan jika perlu, dan tekan Simpan."
+    ]
+  },
+  {
+    "id": "register-new-marshal",
+    "app": "ops",
+    "category": "marshal",
+    "question": "How do I register a new marshal from GEP Ops?",
+    "question_ms": "Bagaimanakah cara mendaftarkan marshal baharu melalui GEP Ops?",
+    "answer": "Supervisors can register new marshals on site in two steps without accessing the web portal:",
+    "answer_ms": "Penyelia boleh mendaftarkan marshal baharu terus di lapangan melalui dua langkah mudah tanpa perlu membuka portal web:",
+    "steps": [
+      "Navigate to Manage, select your zone, and open Marshal.",
+      "Select the Register / Add button.",
+      "Step 1: Enter the marshal's profile details (full name, staff ID, phone number, email, password, and optional profile photo).",
+      "Step 2: Assign their attendance group, premise schedule, and effective date range, then submit."
+    ],
+    "steps_ms": [
+      "Pergi ke tab Urus, pilih zon, dan buka modul Marshal.",
+      "Pilih butang Daftar / Tambah.",
+      "Langkah 1: Lengkapkan maklumat profil marshal (nama penuh, ID staf, nombor telefon, e-mel, kata laluan, serta gambar profil pilihan).",
+      "Langkah 2: Tetapkan kumpulan kehadiran, jadual premis, dan tarikh kuat kuasa, kemudian hantar."
+    ]
+  },
+  {
+    "id": "edit-marshal-details",
+    "app": "ops",
+    "category": "marshal",
+    "question": "Can I update an existing marshal's contact details, photo, or password in GEP Ops?",
+    "question_ms": "Bolehkah maklumat hubungan, gambar profil, atau kata laluan marshal dikemas kini di GEP Ops?",
+    "answer": "Yes. Open Manage > Marshal, select the marshal, and choose Edit. You may update their full name, phone number, email, access card UID, profile photo, or password, then select Save Changes.",
+    "answer_ms": "Ya. Buka Urus > Marshal, pilih nama marshal berkaitan, dan tekan Edit. Anda boleh mengemas kini nama penuh, nombor telefon, e-mel, UID kad akses, gambar profil, atau kata laluan baharu, kemudian tekan Simpan Perubahan.",
+    "tip": "Staff ID is read-only on mobile to preserve historical attendance integrity.",
+    "tip_ms": "ID Staf ditetapkan kepada mod baca sahaja pada aplikasi mudah alih bagi memastikan ketepatan rekod kehadiran terdahulu."
+  },
+  {
+    "id": "register-face-id",
+    "app": "both",
+    "category": "marshal",
+    "question": "How is Face ID enrolled, and are camera photos stored on the server?",
+    "question_ms": "Bagaimanakah pendaftaran Face ID dilakukan, dan adakah gambar wajah disimpan di pelayan?",
+    "answer": "Face ID can be enrolled in GEP Ops (Manage > Marshal > Edit > Register Face) or by an administrator in GEP Pro (User Management > User Profile > Add new Face ID). Up to 3 Face ID slots are supported per marshal (for instance, with and without spectacles). To protect personal privacy, facial scans are converted on the device into an encrypted numerical template, and raw camera images are never uploaded to the server.",
+    "answer_ms": "Pendaftaran Face ID boleh dilakukan di GEP Ops (Urus > Marshal > Edit > Daftar Wajah) atau oleh pentadbir pada GEP Pro (User Management > User Profile > Add new Face ID). Sehingga 3 slot Face ID disokong bagi setiap marshal (contohnya dengan atau tanpa cermin mata). Bagi melindungi privasi data peribadi, imbasan wajah ditukarkan terus pada peranti kepada templat angka sulit dan gambar asal kamera tidak pernah dimuat naik ke pelayan.",
+    "tip": "After enrolling a new Face ID in GEP Ops, run Sync user list on the site's GEP Pro device so guards can verify immediately.",
+    "tip_ms": "Selepas mendaftarkan Face ID baharu di GEP Ops, jalankan Sync user list pada peranti GEP Pro di lokasi supaya pengawal boleh mengesahkan wajah serta-merta."
+  },
+  {
+    "id": "face-id-errors",
+    "app": "both",
+    "category": "marshal",
+    "question": "How do I resolve Face ID enrollment or verification errors?",
+    "question_ms": "Bagaimanakah cara menyelesaikan ralat pendaftaran atau pengesahan Face ID?",
+    "answer": "Follow the resolution below based on the prompt displayed on GEP Ops or GEP Pro:",
+    "answer_ms": "Sila ikuti langkah penyelesaian berikut mengikut mesej yang dipaparkan pada GEP Ops atau GEP Pro:",
+    "steps": [
+      "Maximum Face ID limit reached (3/3): Delete an existing Face ID slot first, then register a new Face ID.",
+      "More than one face detected / Multiple faces detected: Ensure only the marshal is visible inside the camera frame in even lighting, hold the device at eye level, and capture again.",
+      "Your face is not registered / Face embeddings not found: Ask a supervisor to enroll Face ID and run Sync user list on the GEP Pro terminal.",
+      "Low recognition confidence on GEP Pro: Administrators can adjust Face Identification Sensitivity or Face Validation Sensitivity under Application Settings."
+    ],
+    "steps_ms": [
+      "Had maksimum Face ID dicapai (3/3): Padam salah satu slot Face ID sedia ada terlebih dahulu sebelum mendaftarkan rekod baharu.",
+      "Lebih satu wajah dikesan (Multiple faces detected): Pastikan hanya wajah marshal berada di dalam bingkai kamera di kawasan bercahaya sekata, pegang peranti pada paras mata, dan cuba semula.",
+      "Wajah belum didaftarkan (Face embeddings not found): Minta penyelia mendaftarkan Face ID dan jalankan Sync user list pada terminal GEP Pro.",
+      "Tahap padanan rendah pada GEP Pro: Pentadbir boleh menyemak tetapan Face Identification Sensitivity atau Face Validation Sensitivity di dalam Application Settings."
+    ]
+  },
+  {
+    "id": "offline-sync",
+    "app": "both",
+    "category": "support",
+    "question": "Can GEP Ops and GEP Pro continue operating without an active internet connection?",
+    "question_ms": "Bolehkah GEP Ops dan GEP Pro terus digunakan tanpa sambungan internet?",
+    "answer": "Yes. Both applications store operational data locally so field duties and supervisor reviews are not interrupted by weak reception:",
+    "answer_ms": "Ya. Kedua-dua aplikasi menyimpan data operasi secara tempatan supaya tugasan lapangan dan semakan penyelia tidak terganggu oleh liputan lemah:",
+    "steps": [
+      "GEP Pro: Continues recording shift attendance, NFC or QR checkpoint scans, GPS patrol routes, incident reports, photos, and panic events locally. Queued items appear as Pending under Synchronization Status and update to Synced automatically once internet access returns.",
+      "GEP Ops: Retains previously loaded Dashboard summaries, zones, marshals, attendance records, and call history offline. Call status updates saved while offline synchronize to the server automatically when connectivity is restored."
+    ],
+    "steps_ms": [
+      "GEP Pro: Terus merekod kehadiran syif, imbasan checkpoint NFC atau QR, laluan GPS rondaan, laporan insiden, gambar, dan rekod panik secara tempatan. Rekod yang menunggu penghantaran berstatus Pending pada Synchronization Status dan bertukar kepada Synced secara automatik apabila sambungan internet pulih.",
+      "GEP Ops: Mengekalkan ringkasan Dashboard, senarai zon, marshal, rekod kehadiran, dan sejarah panggilan yang telah dimuat turun sebelum ini untuk rujukan luar talian. Kemas kini status panggilan semasa luar talian akan diselaraskan ke pelayan secara automatik apabila peranti kembali dalam talian."
+    ],
+    "tip": "In GEP Ops, select the refresh icon beside the \"Last synced\" bar on the Dashboard whenever you need updated live figures.",
+    "tip_ms": "Di dalam GEP Ops, tekan ikon muat semula di sebelah bar \"Terakhir dikemas kini\" pada Dashboard pada bila-bila masa untuk mendapatkan data terkini."
+  },
+  {
+    "id": "switch-language",
+    "app": "both",
+    "category": "support",
+    "question": "How do I switch the interface language between English and Bahasa Melayu?",
+    "question_ms": "Bagaimanakah cara menukar bahasa paparan antara Bahasa Melayu dan Bahasa Inggeris?",
+    "answer": "Both applications support English and Bahasa Melayu:",
+    "answer_ms": "Kedua-dua aplikasi menyokong paparan Bahasa Inggeris dan Bahasa Melayu:",
+    "steps": [
+      "GEP Ops: Use the BM | EN selector in the top-right corner of the Login screen, or open Profile > Language after signing in.",
+      "GEP Pro: Choose English or Bahasa Melayu directly on the Login screen before signing in."
+    ],
+    "steps_ms": [
+      "GEP Ops: Gunakan pemilih BM | EN di penjuru kanan atas skrin Log Masuk, atau buka Profil > Bahasa selepas log masuk.",
+      "GEP Pro: Pilih Bahasa Inggeris atau Bahasa Melayu secara terus pada skrin Log Masuk sebelum memulakan sesi."
+    ]
+  },
+  {
+    "id": "report-a-bug",
+    "app": "both",
+    "category": "support",
+    "question": "How do I report a technical issue or submit diagnostics to support?",
+    "question_ms": "Bagaimanakah cara melaporkan isu teknikal atau menghantar data diagnostik kepada pasukan sokongan?",
+    "answer": "Use the reporting channel corresponding to your application so our team receives the device details needed to investigate:",
+    "answer_ms": "Gunakan saluran pelaporan mengikut aplikasi anda supaya pasukan teknikal menerima maklumat peranti yang diperlukan:",
+    "steps": [
+      "GEP Ops: Open Profile > Report Bug, select a category, describe the steps to reproduce the issue, optionally attach up to 5 screenshots, and submit. Retain the ticket ID (for example, OP#13400) for follow-up.",
+      "GEP Pro: Contact your system administrator or email GuardExpertPro@securelabx.com with the device Serial Number (found under About) and app version. If requested by technical support, an administrator can select Upload Database Snapshot to share diagnostic logs."
+    ],
+    "steps_ms": [
+      "GEP Ops: Buka Profil > Lapor Isu (Report Bug), pilih kategori, nyatakan butiran masalah yang berlaku, lampirkan sehingga 5 tangkapan skrin jika berkaitan, dan hantar. Simpan nombor tiket rujukan (contohnya OP#13400) untuk semakan susulan.",
+      "GEP Pro: Hubungi pentadbir sistem atau e-mel ke GuardExpertPro@securelabx.com bersama Nombor Siri peranti (rujuk menu About) dan versi aplikasi. Jika diminta oleh pasukan teknikal, pentadbir boleh memilih Upload Database Snapshot bagi tujuan semakan diagnostik."
+    ]
+  },
+  {
+    "id": "view-guide-and-updates",
+    "app": "ops",
+    "category": "support",
+    "question": "Where can I replay the onboarding guide or check my current app version in GEP Ops?",
+    "question_ms": "Di manakah saya boleh melihat semula panduan aplikasi atau menyemak versi terkini di GEP Ops?",
+    "answer": "Both options are located in the Profile tab. Select View Guide at any time to replay the 5-step walkthrough. Select App Version to view official Release Notes for your installed build. Devices installed via Google Play or Xiaomi GetApps receive updates through their respective app stores.",
+    "answer_ms": "Kedua-dua pilihan tersedia di tab Profil. Pilih Lihat Panduan pada bila-bila masa untuk mengulang semula panduan pengenalan 5 langkah. Pilih Versi Aplikasi untuk membaca Nota Kemas Kini rasmi. Bagi pemasangan melalui Google Play atau Xiaomi GetApps, kemas kini aplikasi diuruskan terus melalui gedung aplikasi berkenaan."
+  }
+]

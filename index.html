@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
+  <meta name="theme-color" content="#ffffff"/>
+  <title>GuardExpert Pro - Frequently Asked Questions (GEP Ops &amp; GEP Pro)</title>
+  <meta name="description" content="Official frequently asked questions, operational workflows, and troubleshooting guidance for GEP Ops and GEP Pro mobile applications."/>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="./assets/logo.png"/>
+  <link rel="apple-touch-icon" href="./assets/logo.png"/>
+
+  <!-- Open Graph / WhatsApp / Discord Preview -->
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="GuardExpert Pro"/>
+  <meta property="og:title" content="GuardExpert Pro - Frequently Asked Questions"/>
+  <meta property="og:description" content="Clear answers, operational workflows, and troubleshooting guidance for GEP Ops and GEP Pro mobile applications."/>
+  <meta property="og:url" content="https://mzakwankarim.github.io/faq-ops/"/>
+
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:title" content="GuardExpert Pro - Frequently Asked Questions"/>
+  <meta name="twitter:description" content="Clear answers, operational workflows, and troubleshooting guidance for GEP Ops and GEP Pro mobile applications."/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="./css/styles.css"/>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="#" class="brand" aria-label="GuardExpert Pro FAQ">
+        <img src="./assets/logo.png" alt="GuardExpert Pro" class="brand-logo" width="28" height="28"/>
+        <span class="brand-name">GuardExpert Pro</span>
+        <span class="brand-sep" aria-hidden="true">/</span>
+        <span id="brand-section" class="brand-section">FAQ</span>
+      </a>
+
+      <div class="topbar-actions">
+        <div class="search-box">
+          <svg class="icon search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+          </svg>
+          <input
+            id="search-input-desktop"
+            type="search"
+            class="search-input"
+            autocomplete="off"
+            placeholder="Search GEP Ops &amp; GEP Pro..."
+            aria-label="Search frequently asked questions"
+          />
+          <button id="search-clear-desktop" type="button" class="search-clear hidden" aria-label="Clear search">
+            <svg class="icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M18 6 6 18"/><path d="m6 6 12 12"/>
+            </svg>
+          </button>
+        </div>
+
+        <div id="lang-switch" class="lang-switch" role="group" aria-label="Language">
+          <button type="button" class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
+          <button type="button" class="lang-btn" data-lang="ms" aria-pressed="false">BM</button>
+        </div>
+
+        <button
+          id="mobile-search-btn"
+          type="button"
+          class="mobile-search-btn"
+          aria-label="Search questions"
+          aria-expanded="false"
+          aria-controls="mobile-search-drawer"
+        >
+          <svg class="icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div id="mobile-search-drawer" class="mobile-search-drawer">
+      <div class="search-box">
+        <svg class="icon search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
+        </svg>
+        <input
+          id="search-input-mobile"
+          type="search"
+          class="search-input"
+          autocomplete="off"
+          placeholder="Search clocking, patrol, Face ID, alerts..."
+          aria-label="Search frequently asked questions"
+        />
+        <button id="search-clear-mobile" type="button" class="search-clear hidden" aria-label="Clear search">
+          <svg class="icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M18 6 6 18"/><path d="m6 6 12 12"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-wrap">
+    <section class="page-hero">
+      <span id="hero-eyebrow" class="hero-eyebrow">GEP Ops &amp; GEP Pro</span>
+      <h1 id="hero-title" class="hero-title">Frequently Asked Questions</h1>
+      <p id="hero-lead" class="hero-lead">
+        Clear answers, operational workflows, and troubleshooting guidance for GEP Ops and GEP Pro mobile applications.
+      </p>
+
+      <div class="app-filter-bar">
+        <span id="app-filter-label" class="app-filter-label">Application</span>
+        <div id="app-switch" class="app-switch" role="group" aria-label="Filter by application">
+          <button type="button" class="app-btn active" data-app="all" aria-pressed="true">All Apps</button>
+          <button type="button" class="app-btn" data-app="ops" aria-pressed="false">
+            <span class="app-dot ops" aria-hidden="true"></span>
+            <span>GEP Ops</span>
+          </button>
+          <button type="button" class="app-btn" data-app="pro" aria-pressed="false">
+            <span class="app-dot pro" aria-hidden="true"></span>
+            <span>GEP Pro</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <nav class="controls-bar" aria-label="Filter questions">
+      <div id="category-tabs" class="category-tabs no-scrollbar" role="tablist" aria-label="Filter by topic">
+        <button type="button" role="tab" aria-selected="true" class="cat-tab active" data-category="all">All</button>
+        <button type="button" role="tab" aria-selected="false" class="cat-tab" data-category="general">General &amp; Account</button>
+        <button type="button" role="tab" aria-selected="false" class="cat-tab" data-category="dashboard">Dashboard &amp; Alerts</button>
+        <button type="button" role="tab" aria-selected="false" class="cat-tab" data-category="patrol">Patrol &amp; Checkpoints</button>
+        <button type="button" role="tab" aria-selected="false" class="cat-tab" data-category="incidents">Reports &amp; Panic</button>
+        <button type="button" role="tab" aria-selected="false" class="cat-tab" data-category="attendance">Attendance &amp; Zone</button>
+        <button type="button" role="tab" aria-selected="false" class="cat-tab" data-category="marshal">Marshal &amp; Face ID</button>
+        <button type="button" role="tab" aria-selected="false" class="cat-tab" data-category="support">App &amp; Support</button>
+      </div>
+
+      <div class="controls-right">
+        <span id="result-count" class="result-count" aria-live="polite">Loading...</span>
+        <button id="toggle-all-btn" type="button" class="expand-all-btn">Expand all</button>
+      </div>
+    </nav>
+
+    <section class="faq-feed" aria-label="FAQ sections">
+      <div id="loading-state" class="skeleton-entry" aria-busy="true" aria-label="Loading questions">
+        <div class="skel-aside">
+          <div class="skel" style="width: 6.5rem; height: 18px;"></div>
+          <div class="skel" style="width: 4.5rem; height: 14px;"></div>
+        </div>
+        <div class="skel-main">
+          <div class="skel" style="width: 72%; height: 22px;"></div>
+          <div class="skel" style="width: 86%; height: 22px;"></div>
+          <div class="skel" style="width: 64%; height: 22px;"></div>
+        </div>
+      </div>
+
+      <div id="faq-mount"></div>
+
+      <div id="empty-state" class="state-block hidden">
+        <h2 id="empty-title" class="state-title">No matching questions found</h2>
+        <p id="empty-desc" class="state-desc">Select another application or topic filter, or refine your search keywords.</p>
+        <button id="reset-filters-btn" type="button" class="secondary-btn">Reset filters</button>
+      </div>
+
+      <div id="error-state" class="state-block hidden">
+        <h2 id="error-title" class="state-title">Unable to load FAQs</h2>
+        <p id="error-message" class="state-desc">Could not load faqs.json.</p>
+        <button id="retry-load-btn" type="button" class="retry-btn">Try again</button>
+      </div>
+    </section>
+
+    <section class="support-card" aria-labelledby="support-title">
+      <div class="support-copy">
+        <h2 id="support-title" class="support-title">Need further assistance?</h2>
+        <p id="support-desc" class="support-desc">
+          In GEP Ops, open <strong>Profile &gt; Report Bug</strong> to submit screenshots with your device context attached automatically. For GEP Pro device or operational assistance, contact our support desk.
+        </p>
+      </div>
+      <div class="support-actions">
+        <a id="support-email-btn" href="mailto:GuardExpertPro@securelabx.com?subject=GuardExpert%20Pro%20Support" class="primary-link-btn">
+          Contact Support
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <span>GuardExpert Pro &middot; GEP Ops &amp; GEP Pro</span>
+    <nav class="footer-links" aria-label="Related links">
+      <a id="footer-changelog" href="https://mzakwankarim.github.io/version-log-ops/" target="_blank" rel="noopener">GEP Ops Release Notes</a>
+      <span class="footer-dot" aria-hidden="true">&middot;</span>
+      <a id="footer-privacy" href="https://mzakwankarim.github.io/privacy-policy-ops/" target="_blank" rel="noopener">Privacy Policy</a>
+    </nav>
+  </footer>
+
+  <button id="back-to-top-btn" type="button" class="back-to-top" aria-label="Back to top">
+    <svg class="icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M12 19V5"/><path d="m5 12 7-7 7 7"/>
+    </svg>
+  </button>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
